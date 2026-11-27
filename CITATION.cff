@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it and the article arXiv:2611.33284."
+title: "Code for: Structure-factor witnesses of thermal entanglement: exact optimal covariance criteria for the XY chain"
+type: software
+license: MIT
+repository-code: "https://github.com/julia-mathe/xy-chain-entanglement-witnesses"
+abstract: "MATLAB code that reproduces the numerical results and figures of the article: optimal covariance-matrix entanglement witnesses for the thermal XY chain, structure factors, small-chain benchmarks, quench dynamics and bounds on entanglement measures."
+keywords:
+  - entanglement witnesses
+  - covariance matrix criterion
+  - XY chain
+  - structure factors
+  - semidefinite programming
+authors:
+  - given-names: Julia
+    family-names: Mathé
+    affiliation: "Atominstitut, TU Wien"
+  - given-names: Ayaka
+    family-names: Usui
+    affiliation: "Universitat Autònoma de Barcelona"
+  - given-names: Otfried
+    family-names: Gühne
+    affiliation: "Universität Siegen"
+  - given-names: Giuseppe
+    family-names: Vitagliano
+    affiliation: "Atominstitut, TU Wien"
