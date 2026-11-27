@@ -7,7 +7,7 @@ repo = fileparts(fileparts(mfilename('fullpath')));
 addpath(fullfile(repo, 'functions'));
 
 %% Part 1: bounds assuming that Neel states are optimal
-fprintf('Part 1: bounds assuming Neel optimality (Conjecture 1)\n');
+fprintf('Part 1: bounds assuming Neel optimality\n');
 for N = [4 6 8 10]
     fprintf('  N = %2d:  omega = 0.15371 -> E_G >= %.4f,   omega = 0.5827 -> E_G >= %.4f\n', N, ...
             geometric_bound_neel(0.15371, N), geometric_bound_neel(0.5827, N));

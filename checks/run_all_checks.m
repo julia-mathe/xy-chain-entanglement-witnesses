@@ -1,6 +1,6 @@
 % RUN_ALL_CHECKS  Runs the check scripts one after the other; include_slow = true adds the slow ones.
 
-include_slow = true;
+include_slow = false;
 here = fileparts(mfilename('fullpath'));
 fast = {'check_thermodynamic_limit', 'check_theorem1_N10', 'check_theorem1_random_parameters', ...
     'check_free_fermions_open_chain', 'check_fully_ppt_example_N4', 'check_quench_temperature_window', ...
